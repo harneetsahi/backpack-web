@@ -1,6 +1,9 @@
+import React from "react";
+
 interface ButtonProps {
-  text: string;
+  text?: string;
   type?: "button" | "submit" | "reset";
+  icon?: React.ReactNode;
   onClick?: () => void;
   className?: string;
   name?: string;
@@ -12,8 +15,9 @@ function Button(props: ButtonProps) {
       <button
         onClick={props.onClick}
         name={props.name}
-        className={`${props.className} rounded-lg cursor-pointer py-2 px-4 `}
+        className={`${props.className} rounded-lg cursor-pointer  `}
       >
+        {props.icon}
         {props.text}
       </button>
     </>
