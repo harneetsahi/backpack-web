@@ -10,7 +10,7 @@ import { spotCoins } from "../data/cardData";
 import Image from "next/image";
 import { ArrowUp } from "lucide-react";
 
-const headerStyles = "text-gray-400 font-semibold text-[15px]";
+const headerStyles = "text-gray font-semibold text-[15px]";
 
 function SpotCard() {
   return (
@@ -41,7 +41,7 @@ function SpotCard() {
             {spotCoins.map((item, i) => {
               return (
                 <TableRow
-                  className=" font-semibold cursor-pointer hover:bg-[#1d1e23] "
+                  className=" font-semibold cursor-pointer hover:bg-dark "
                   key={i}
                 >
                   <TableCell className="flex py-3">
@@ -54,7 +54,7 @@ function SpotCard() {
                     />
                     <div className="pl-4">
                       <p className="text-lg">{item.name}</p>
-                      <p className="text-gray-400 text-[12px]">
+                      <p className="text-gray text-[12px]">
                         <span>{item.exchange}</span>
                         <span className="text-yellow-600 text-[10px] pl-5">
                           {item.experimental}
