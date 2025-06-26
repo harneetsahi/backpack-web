@@ -942,3 +942,106 @@ export const lendCoins = [
     image: "/coin-1.webp",
   },
 ];
+
+export const pepeusd = [
+  {
+    price: 0.000009263,
+    size: "27.32M",
+    total: "27.32M",
+  },
+  {
+    price: 0.000009264,
+    size: "32.38M",
+    total: "59.71M",
+  },
+  {
+    price: 0.000009268,
+    size: "107.90M",
+    total: "167.61M",
+  },
+  {
+    price: 0.000009281,
+    size: "5.12M",
+    total: "172.73M",
+  },
+  {
+    price: 0.000009283,
+    size: "120.97M",
+    total: "293.70M",
+  },
+  {
+    price: 0.000009288,
+    size: "107.67M",
+    total: "401.37M",
+  },
+  {
+    price: 0.000009292,
+    size: "127.28M",
+    total: "528.65M",
+  },
+  {
+    price: 0.000009321,
+    size: "515.45M",
+    total: "1.04B",
+  },
+  {
+    price: 0.000009544,
+    size: "1.05B",
+    total: "2.09B",
+  },
+  {
+    price: 0.0000133,
+    size: "507.81K",
+    total: "2.09B",
+  },
+  {
+    price: 0.000015555,
+    size: "3.29M",
+    total: "2.10B",
+  },
+  {
+    price: 0.0000182,
+    size: "66.15M",
+    total: "2.16B",
+  },
+  {
+    price: 0.0000186,
+    size: "347.81K",
+    total: "2.16B",
+  },
+  {
+    price: 0.000018888,
+    size: "22.40M",
+    total: "2.18B",
+  },
+  {
+    price: 0.0000195,
+    size: "303.21K",
+    total: "2.18B",
+  },
+  {
+    price: 0.0000237,
+    size: "277.54K",
+    total: "2.19B",
+  },
+  {
+    price: 0.000027334,
+    size: "299.75K",
+    total: "2.19B",
+  },
+  {
+    price: 0.0000275,
+    size: "2.72M",
+    total: "2.19B",
+  },
+  {
+    price: 0.000028562,
+    size: "753.14K",
+    total: "2.19B",
+  },
+  {
+    price: 0.0000286,
+    size: "2.01M",
+    total: "2.19B",
+  },
+];
