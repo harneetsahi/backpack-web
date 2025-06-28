@@ -82,7 +82,7 @@ function NavbarDropdown() {
       <ul className="z-20 shadow-2xl shadow-black bg-darker border-1 border-dark p-3 rounded-lg absolute top-10  -right-[24vw] grid grid-cols-2 gap-1  w-130">
         {listItems.map((item, i) => {
           return (
-            <Link href={item.link} key={i}>
+            <Link href={item.link} key={i} target="_blank">
               <li className="flex gap-3 w-full hover:bg-dark px-3 py-3 rounded-lg  ">
                 <div className="pt-1">{item.icon}</div>
                 <div>
@@ -101,27 +101,30 @@ function NavbarDropdown() {
             </Link>
           );
         })}
-        <li className="flex gap-3 w-full  hover:bg-dark px-3 py-3 rounded-lg ">
-          <div className="pt-1">
-            <img
-              src="https://backpack.exchange/discord-bw.svg"
-              alt="discord logo"
-              className="w-4.5"
-            />
-          </div>
-          <div>
-            <p className="text-white flex gap-3">
-              Discord
-              <span className="text-gray pt-0.5">
-                <ExternalLink size={15} />
-              </span>
-            </p>
 
-            <p className="font-medium text-xs pt-0.5 ">
-              Join our Discord community
-            </p>
-          </div>
-        </li>
+        <Link href="https://discord.com/invite/backpack" target="_blank">
+          <li className="flex gap-3 w-full  hover:bg-dark px-3 py-3 rounded-lg ">
+            <div className="pt-1">
+              <img
+                src="https://backpack.exchange/discord-bw.svg"
+                alt="discord logo"
+                className="w-4.5"
+              />
+            </div>
+            <div>
+              <p className="text-white flex gap-3">
+                Discord
+                <span className="text-gray pt-0.5">
+                  <ExternalLink size={15} />
+                </span>
+              </p>
+
+              <p className="font-medium text-xs pt-0.5 ">
+                Join our Discord community
+              </p>
+            </div>
+          </li>
+        </Link>
       </ul>
     </>
   );

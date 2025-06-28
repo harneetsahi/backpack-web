@@ -16,12 +16,14 @@ function Footer() {
               <p className="font-semibold w-max">Backpack Exchange © 2025</p>
               <Link
                 href="https://support.backpack.exchange/legal"
+                target="_blank"
                 className="text-gray hover:text-gray/70"
               >
                 Legal
               </Link>
               <Link
                 href="https://support.backpack.exchange/legal/general-legal/privacy-policy"
+                target="_blank"
                 className="text-gray hover:text-gray/70"
               >
                 Privacy
@@ -35,18 +37,21 @@ function Footer() {
               <div className="text-gray text-[13px] flex flex-col gap-1.5">
                 <Link
                   href="https://learn.backpack.exchange/about"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   About
                 </Link>
                 <Link
                   href="https://sugared-duckling-ec8.notion.site/7c1995182f4a491ba8a9501ee15cbd01?v=0604ca8976fa4e5e81c5494f7c95abc4"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   Careers
                 </Link>
                 <Link
                   href="https://support.backpack.exchange/"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   Contact
@@ -59,24 +64,28 @@ function Footer() {
               <div className="text-gray text-[13px] flex flex-col gap-1.5">
                 <Link
                   href="https://learn.backpack.exchange/"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   Learn
                 </Link>
                 <Link
                   href="https://guide.backpack.exchange/"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   Guide
                 </Link>
                 <Link
                   href="https://support.backpack.exchange/"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   Support
                 </Link>
                 <Link
                   href="https://docs.backpack.exchange/"
+                  target="_blank"
                   className="text-gray hover:text-gray/70"
                 >
                   Documentation
@@ -85,7 +94,7 @@ function Footer() {
             </div>
 
             <div className="flex md:gap-4 gap-3 items-start md:pl-10 pl-4 ">
-              <Link href="https://x.com/backpack">
+              <Link href="https://x.com/backpack" target="_blank">
                 <img
                   alt="x.com"
                   loading="lazy"
@@ -94,7 +103,7 @@ function Footer() {
                   src="https://backpack.exchange/x-bw.svg"
                 ></img>
               </Link>
-              <Link href="https://discord.com/invite/backpack">
+              <Link href="https://discord.com/invite/backpack" target="_blank">
                 <img
                   alt="discord"
                   loading="lazy"
@@ -104,7 +113,10 @@ function Footer() {
                 ></img>
               </Link>
 
-              <Link href="https://www.linkedin.com/company/backpackexchange/">
+              <Link
+                href="https://www.linkedin.com/company/backpackexchange/"
+                target="_blank"
+              >
                 <img
                   alt="linkedin"
                   loading="lazy"
@@ -114,7 +126,10 @@ function Footer() {
                 ></img>
               </Link>
 
-              <Link href="https://www.reddit.com/r/Backpack_official/">
+              <Link
+                href="https://www.reddit.com/r/Backpack_official/"
+                target="_blank"
+              >
                 <img
                   alt="reddit"
                   loading="lazy"
