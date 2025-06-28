@@ -1,12 +1,13 @@
-import Image from "next/image";
+"use client";
+
 import { useState } from "react";
 import SpotCard from "./SpotCard";
 import FuturesCard from "./FuturesCard";
 import LendCard from "./LendCard";
 import Button from "./Button";
 
-const activeStyles = "bg-[#1d1e23] text-white";
-const inactiveStyles = " text-gray-400";
+const activeStyles = "bg-dark text-white";
+const inactiveStyles = "text-gray";
 
 function DetailedCard() {
   const [activeTab, setActiveTab] = useState("spot");
@@ -24,7 +25,7 @@ function DetailedCard() {
 
   return (
     <>
-      <div className={` bg-[#14151B] pb-5 rounded-lg w-full px-5`}>
+      <div className={` bg-darker pb-5 rounded-lg w-full px-5`}>
         <div className="flex gap-2 my-3.5 font-bold text-[14px]">
           <Button
             type="button"
