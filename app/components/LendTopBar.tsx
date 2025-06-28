@@ -1,4 +1,4 @@
-import { ChevronDown, Zap } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 const directChildrenStyles = "shrink-0 flex flex-col gap-0.5";
 

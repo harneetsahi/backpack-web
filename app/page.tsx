@@ -14,12 +14,12 @@ export default function Home() {
           </div>
 
           <div className=" flex gap-4 justify-between w-full">
-            <Card title="New" children={newCoins} />
-            <Card title="Top Gainers" children={topCoins} />
+            <Card title="New" coins={newCoins} />
+            <Card title="Top Gainers" coins={topCoins} />
             <Card
               className="hidden md:block"
               title="Popular"
-              children={popularCoins}
+              coins={popularCoins}
             />
           </div>
 

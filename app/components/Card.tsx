@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-interface childrenProps {
+interface coinProps {
   name: string;
   value: string;
   change: string;
@@ -9,17 +9,17 @@ interface childrenProps {
 
 interface CardProps {
   title?: string;
-  children?: childrenProps[];
+  coins?: coinProps[];
   className?: string;
 }
 
-function Card({ title, children, className }: CardProps) {
+function Card({ title, coins, className }: CardProps) {
   return (
     <>
       <div className={`${className} bg-darker rounded-lg w-100 py-3`}>
         <p className="text-md font-bold pt-1.5 pb-2 px-4">{title}</p>
         <div>
-          {children?.map((item, index) => {
+          {coins?.map((item, index) => {
             return (
               <div
                 key={index}

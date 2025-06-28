@@ -7,7 +7,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { futuresCoins } from "../data/cardData";
-import Image from "next/image";
 import { ArrowUp } from "lucide-react";
 
 const headerStyles = "text-gray font-semibold lg:text-[15px] text-[13px]";

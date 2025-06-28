@@ -12,12 +12,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const dotStyle =
   "w-2 h-2 bg-white rounded-[50%] inline-block opacity-35 shadow-md cursor-pointer";
 
-type UseDotButtonType = {
-  selectedIndex: number;
-  scrollSnaps: number[];
-  onDotButtonClick: (index: number) => void;
-};
-
 function ImageCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay({ stopOnInteraction: false, delay: 3500 }),

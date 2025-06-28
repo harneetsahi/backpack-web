@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, memo } from "react";
 
 function TradingViewWidget() {
-  const container = useRef(null);
+  const container = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const script = document.createElement("script");
@@ -36,15 +36,15 @@ function TradingViewWidget() {
           "studies": [],
           "autosize": true
         }`;
-    (container.current as any).appendChild(script);
+    container.current?.appendChild(script);
 
     return () => {
       if (container.current && script.parentNode === container.current) {
-        (container.current as any).removeChild(script);
+        container.current.removeChild(script);
       }
 
       if (container.current) {
-        (container.current as any).innerHTML = "";
+        container.current.innerHTML = "";
       }
     };
   }, []);
