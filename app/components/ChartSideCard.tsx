@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Button from "./Button";
 import { pepeusd, trade } from "../data/cardData";
 import {
@@ -15,15 +15,8 @@ import {
 const activeStyles = "bg-dark text-white";
 const inactiveStyles = "text-gray";
 
-// const random = Math.floor(Math.random() * 2);
-
 function ChartSideCard() {
   const [activeTab, setActiveTab] = useState("book");
-  // const [randomVal, setRandomVal] = useState(0);
-
-  // useEffect(() => {
-  //   setRandomVal(Math.floor(Math.random() * 2));
-  // }, []);
 
   return (
     <>
