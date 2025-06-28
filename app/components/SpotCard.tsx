@@ -7,7 +7,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { spotCoins } from "../data/cardData";
-import Image from "next/image";
 import { ArrowUp } from "lucide-react";
 
 const headerStyles = "text-gray font-semibold text-[15px]";
@@ -45,12 +44,10 @@ function SpotCard() {
                   key={i}
                 >
                   <TableCell className="flex py-3">
-                    <Image
+                    <img
                       src={item.image}
                       alt="coin image"
-                      width={35}
-                      height={1}
-                      className="object-contain"
+                      className="object-cover w-11 h-11 rounded-full"
                     />
                     <div className="pl-4">
                       <p className="text-lg">{item.name}</p>
