@@ -6,8 +6,8 @@ import InputEl from "./InputEl";
 import Link from "next/link";
 
 function BuySellCard() {
-  const [activeTab, setActiveTab] = useState("Buy");
-  const [activeSubTab, setActiveSubTab] = useState("Limit");
+  const [activeTab, setActiveTab] = useState("buy");
+  const [activeSubTab, setActiveSubTab] = useState("limit");
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
   const handleOptionChange = (optionId: string) => {
@@ -19,22 +19,26 @@ function BuySellCard() {
       <div
         className={` flex flex-col  overflow-hidden   bg-darker pb-5 rounded-lg px-5 h-max min-w-75`}
       >
-        <div className="flex gap-2 my-3.5 font-bold text-[16px] bg-dark rounded-xl">
+        <div className="flex my-3.5 font-bold text-[15px] bg-dark rounded-xl">
           <Button
             type="button"
             text="Buy"
             onClick={() => setActiveTab("buy")}
             className={`${
-              activeTab === "buy" ? "bg-[#1C2D2C] text-green-500" : " text-gray"
-            } py-3.5 px-4 w-full`}
+              activeTab === "buy"
+                ? "bg-[#1C2D2C] text-green-500 rounded-xl "
+                : " text-gray"
+            } py-3 px-4 w-full`}
           />
           <Button
             type="button"
             text="Sell"
             onClick={() => setActiveTab("sell")}
             className={`${
-              activeTab === "sell" ? "bg-[#382429] text-red-500" : " text-gray"
-            } py-3.5 px-4 w-full`}
+              activeTab === "sell"
+                ? "bg-[#382429] text-red-500 rounded-xl"
+                : " text-gray"
+            } py-3 px-4 w-full`}
           />
         </div>
 
