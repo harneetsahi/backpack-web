@@ -10,7 +10,7 @@ import { futuresCoins } from "../data/cardData";
 import Image from "next/image";
 import { ArrowUp } from "lucide-react";
 
-const headerStyles = "text-gray-400 font-semibold lg:text-[15px] text-[13px]";
+const headerStyles = "text-gray font-semibold lg:text-[15px] text-[13px]";
 
 function FuturesCard() {
   return (
@@ -41,16 +41,14 @@ function FuturesCard() {
             {futuresCoins.map((item, i) => {
               return (
                 <TableRow
-                  className=" font-semibold cursor-pointer hover:bg-[#1d1e23] "
+                  className=" font-semibold cursor-pointer hover:bg-dark "
                   key={i}
                 >
                   <TableCell className="flex items-center py-3">
-                    <Image
+                    <img
                       src={item.image}
                       alt="coin image"
-                      width={35}
-                      height={1}
-                      className="object-contain"
+                      className="object-cover rounded-full w-11 h-11"
                     />
                     <div className="pl-4 text-[16px]">{item.name}</div>
                   </TableCell>
