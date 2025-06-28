@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import MobileView from "./components/MobileView";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +21,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Home - Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC",
+  title: "Backpack: Crypto Exchange & Wallet | Solana, Ethereum & BTC",
   description:
     "Backpack offers a robust, user-friendly platform for seamlessly trading, managing, and securing your cryptocurrency assets.",
 };
@@ -33,7 +36,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
-        {children}
+        <MobileView />
+        <div className="hidden sm:block">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
