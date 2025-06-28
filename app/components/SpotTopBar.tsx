@@ -3,10 +3,15 @@ import { ChevronDown } from "lucide-react";
 function SpotTopBar() {
   return (
     <>
-      <div className="bg-darker h-20 flex gap-8 items-center px-4 rounded-lg font-semibold  overflow-x-scroll no-scrollbar min-w-270   ">
-        <button className="flex bg-dark py-1.5 px-2 rounded-xl items-center ">
-          <img className="w-8 pr-2" src="/coin-1.webp" alt="coin" />
-          PEPE<span className="text-gray">/USD</span>
+      <div className="bg-darker h-20 flex gap-8 items-center px-4 rounded-lg font-semibold  overflow-x-scroll no-scrollbar lg:w-270 ">
+        <button className="flex bg-dark py-1.5 px-2 rounded-xl items-centers shrink-0 items-center">
+          <img
+            className="w-8 rounded-full"
+            src="/coinImages/pepe.png"
+            alt="coin"
+          />
+          <span className="pl-2">PEPE</span>
+          <span className="text-gray">/USD</span>
           <ChevronDown color="#89919F" className="pl-2" size={32} />
         </button>
 

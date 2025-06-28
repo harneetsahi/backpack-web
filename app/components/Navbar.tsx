@@ -90,13 +90,13 @@ function Navbar() {
 
         <div className="flex gap-4 mx-4">
           <Link
-            href="#"
+            href="https://backpack.exchange/signup"
             className="py-1.5 px-3 rounded-lg bg-[#0B2822] hover:bg-[#0b2822da] text-[#03c379] text-sm font-bold"
           >
             Sign up
           </Link>
           <Link
-            href="#"
+            href="https://backpack.exchange/login"
             className="py-1.5 px-3  rounded-lg text-[#64a0fb] bg-[#162236] hover:bg-[#162236d6] text-sm font-bold"
           >
             Sign in

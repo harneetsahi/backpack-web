@@ -24,7 +24,7 @@ function ImageCarouselDiv({
         <img src={image} className="w-full rounded-2xl " alt="banner" />
         <div className=" flex flex-col gap-2  justify-end absolute z-10 lg:bottom-9 bottom-5 left-10 w-200 ">
           <p className="lg:text-5xl text-2xl">{heading}</p>
-          <p className=" text-gray-400 lg:text-lg text-sm font-semibold">
+          <p className=" text-gray lg:text-lg text-sm font-semibold">
             {description}{" "}
           </p>
 
