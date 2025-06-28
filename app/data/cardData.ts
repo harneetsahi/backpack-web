@@ -3,64 +3,64 @@ export const newCoins = [
     name: "NS",
     value: "0.12761",
     change: "-0.02%",
-    image: "/coin-1.webp",
+    image: "/coinImages/newCoins/ns.webp",
   },
   {
     name: "HAEDAL",
     value: "0.13827",
     change: "+15.36%",
-    image: "/coin-1.webp",
+    image: "/coinImages/newCoins/haedal.webp",
   },
   {
     name: "BLUE",
     value: "0.08289",
     change: "+7.79%",
-    image: "/coin-1.webp",
+    image: "/coinImages/newCoins/blue.webp",
   },
   {
     name: "SEND",
     value: "0.4321",
     change: "+10.12%",
-    image: "/coin-1.webp",
+    image: "/coinImages/newCoins/send.webp",
   },
   {
     name: "DEEP",
     value: "0.13633",
     change: "+14.41%",
-    image: "/coin-1.webp",
+    image: "/coinImages/newCoins/deep.webp",
   },
 ];
 
 export const topCoins = [
   {
-    name: "WIF",
-    value: "0.834",
-    change: "+18.82%",
-    image: "/coin-1.webp",
-  },
-  {
-    name: "MOODENG",
-    value: "0.15169",
-    change: "+18.08%",
-    image: "/coin-1.webp",
-  },
-  {
-    name: "JUP",
-    value: "0.4078",
-    change: "+17.08%",
-    image: "/coin-1.webp",
-  },
-  {
     name: "PENGU",
-    value: "0.0098",
-    change: "+15.29%",
-    image: "/coin-1.webp",
+    value: "0.01062",
+    change: "+15.82%",
+    image: "/coinImages/topCoins/pengu.webp",
+  },
+  {
+    name: "WEN",
+    value: "0.00002968",
+    change: "+6.61%",
+    image: "/coinImages/topCoins/wen.webp",
   },
   {
     name: "IO",
-    value: "0.7015",
-    change: "+14.33%",
-    image: "/coin-1.webp",
+    value: "0.6901",
+    change: "+6.03%",
+    image: "/coinImages/topCoins/io.png",
+  },
+  {
+    name: "DEEP",
+    value: "0.13322",
+    change: "+6.20%",
+    image: "/coinImages/topCoins/deep.webp",
+  },
+  {
+    name: "BLUE",
+    value: "0.08656",
+    change: "+5.99%",
+    image: "/coinImages/topCoins/blue.webp",
   },
 ];
 
@@ -69,52 +69,52 @@ export const popularCoins = [
     name: "ETH",
     value: "2400.63",
     change: "7.49%",
-    image: "/coin-1.webp",
+    image: "/coinImages/popularCoins/eth.webp",
   },
   {
     name: "SOL",
     value: "143.30",
     change: "+7.73%",
-    image: "/coin-1.webp",
+    image: "/coinImages/popularCoins/sol.webp",
   },
   {
     name: "BTC",
     value: "104,871.60",
     change: "+3.58%",
-    image: "/coin-1.webp",
+    image: "/coinImages/popularCoins/btc.webp",
   },
   {
     name: "USDT",
     value: "1",
     change: "+0.02%",
-    image: "/coin-1.webp",
+    image: "/coinImages/popularCoins/usdt.webp",
   },
   {
     name: "SUI",
     value: "2.80",
     change: "+11.97%",
-    image: "/coin-1.webp",
+    image: "/coinImages/popularCoins/sui.webp",
   },
 ];
 
 export const spotCoins = [
   {
-    name: "Blur",
-    exchange: "BLUR/USD",
+    name: "Raydium",
+    exchange: "RAY/USD",
     price: "-",
     volume: "-",
-    marketCap: "$176.6M",
+    marketCap: "$534.6M",
     change: "-",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/ray.webp",
   },
   {
-    name: "deBridge",
-    exchange: "DBR/USD",
+    name: "Woldcoin",
+    exchange: "WLD/USD",
     price: "-",
     volume: "-",
-    marketCap: "$45.5M",
+    marketCap: "$1.5B",
     change: "-",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/wld.webp",
   },
   {
     name: "Pepe",
@@ -123,7 +123,7 @@ export const spotCoins = [
     volume: "$7.8K",
     marketCap: "$4.2B",
     change: "+2.96%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/pepe.png",
   },
   {
     name: "Shiba Inu",
@@ -132,7 +132,7 @@ export const spotCoins = [
     volume: "$1.4K",
     marketCap: "$6.9B",
     change: "+9.09%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/shibu.png",
   },
   {
     name: "Bonk",
@@ -141,7 +141,7 @@ export const spotCoins = [
     volume: "$7.3K",
     marketCap: "$1.1B",
     change: "+15.88%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/bonk.webp",
   },
   {
     name: "Wen",
@@ -150,7 +150,7 @@ export const spotCoins = [
     volume: "$22.7K",
     marketCap: "$22.2M",
     change: "+5.53%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/wen.webp",
   },
   {
     name: "Helium Mobile",
@@ -159,7 +159,7 @@ export const spotCoins = [
     volume: "$767.8",
     marketCap: "$21.6M",
     change: "+4.21%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/mobile.webp",
   },
   {
     name: "Book of Meme",
@@ -169,7 +169,7 @@ export const spotCoins = [
     volume: "$2.1K",
     marketCap: "$104.2M",
     change: "+5.10%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/bome.webp",
   },
   {
     name: "cat in a dogs world",
@@ -179,7 +179,7 @@ export const spotCoins = [
     volume: "$149.2",
     marketCap: "$235.4M",
     change: "-0.27%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/mew.webp",
   },
   {
     name: "Pudgy Penguins",
@@ -188,7 +188,7 @@ export const spotCoins = [
     volume: "$17.9K",
     marketCap: "$613.1M",
     change: "+17.33%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/pengu.webp",
   },
   {
     name: "Hivemapper",
@@ -197,7 +197,7 @@ export const spotCoins = [
     volume: "$7.4",
     marketCap: "$89.3M",
     change: "-0.59%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/honey.webp",
   },
   {
     name: "Act I The AI Prophecy",
@@ -207,7 +207,7 @@ export const spotCoins = [
     volume: "$7.9K",
     marketCap: "$40.6M",
     change: "+4.62%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/act.webp",
   },
   {
     name: "Wormhole",
@@ -216,7 +216,7 @@ export const spotCoins = [
     volume: "$41.8K",
     marketCap: "$287.7M",
     change: "+13.76%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/w.webp",
   },
   {
     name: "Kamino",
@@ -225,7 +225,7 @@ export const spotCoins = [
     volume: "$4.6K",
     marketCap: "$132.1M",
     change: "+10.18%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/kmno.webp",
   },
   {
     name: "Parcl",
@@ -234,7 +234,7 @@ export const spotCoins = [
     volume: "$835.1",
     marketCap: "$26.6M",
     change: "+9.88%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/parcl.png",
   },
   {
     name: "Bluefin",
@@ -243,7 +243,7 @@ export const spotCoins = [
     volume: "$32.4K",
     marketCap: "$26.6M",
     change: "+18.38%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/blue.webp",
   },
   {
     name: "PYTH",
@@ -252,7 +252,7 @@ export const spotCoins = [
     volume: "$1.8K",
     marketCap: "$553.4M",
     change: "+12.94%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/pyth.webp",
   },
   {
     name: "Goatseus Maximus",
@@ -262,7 +262,7 @@ export const spotCoins = [
     volume: "$195.3",
     marketCap: "$97.8M",
     change: "-1.30%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/goat.webp",
   },
   {
     name: "Sanctum",
@@ -271,7 +271,7 @@ export const spotCoins = [
     volume: "$6.7K",
     marketCap: "$37.6M",
     change: "+3.27%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/sanc.webp",
   },
   {
     name: "Tensor",
@@ -280,7 +280,7 @@ export const spotCoins = [
     volume: "$1.3K",
     marketCap: "$38.4M",
     change: "+11.78%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/tnsr.webp",
   },
   {
     name: "Starknet",
@@ -289,7 +289,7 @@ export const spotCoins = [
     volume: "$3.9K",
     marketCap: "$386.4M",
     change: "+11.76%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/strk.webp",
   },
   {
     name: "SuiNS Token",
@@ -298,7 +298,7 @@ export const spotCoins = [
     volume: "$7.1",
     marketCap: "$21.6M",
     change: "0.00%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/sui.webp",
   },
   {
     name: "Haedal Protocol",
@@ -307,7 +307,7 @@ export const spotCoins = [
     volume: "$10.5K",
     marketCap: "$24.8M",
     change: "+5.75%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/haedal.webp",
   },
   {
     name: "DeepBook",
@@ -316,7 +316,7 @@ export const spotCoins = [
     volume: "$726.5",
     marketCap: "$333.7M",
     change: "+15.01%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/deep.webp",
   },
   {
     name: "Jambo",
@@ -325,7 +325,7 @@ export const spotCoins = [
     volume: "$672.9",
     marketCap: "$22.9M",
     change: "+4.33%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/j.webp",
   },
   {
     name: "Moo Deng",
@@ -335,7 +335,7 @@ export const spotCoins = [
     volume: "$8.8K",
     marketCap: "$147.6M",
     change: "+16.63%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/moodeng.webp",
   },
   {
     name: "POL (ex-MATIC)",
@@ -344,7 +344,7 @@ export const spotCoins = [
     volume: "$159",
     marketCap: "$1.6B",
     change: "-1.37%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/pol.webp",
   },
   {
     name: "Sonic SVM",
@@ -353,7 +353,7 @@ export const spotCoins = [
     volume: "$4K",
     marketCap: "$74.3M",
     change: "+6.76%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/sonic.webp",
   },
   {
     name: "Melania Meme",
@@ -363,7 +363,7 @@ export const spotCoins = [
     volume: "$10.3K",
     marketCap: "$128.5M",
     change: "+1.42%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/melania.webp",
   },
   {
     name: "Ethena",
@@ -372,7 +372,7 @@ export const spotCoins = [
     volume: "$12.9K",
     marketCap: "$1.6B",
     change: "+9.91%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/ena.webp",
   },
   {
     name: "Drift",
@@ -381,7 +381,7 @@ export const spotCoins = [
     volume: "$6.6K",
     marketCap: "$124M",
     change: "+4.93%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/drift.webp",
   },
   {
     name: "Jupiter",
@@ -390,7 +390,7 @@ export const spotCoins = [
     volume: "$44.4K",
     marketCap: "$1.2B",
     change: "+19.68%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/jup.webp",
   },
   {
     name: "Walrus",
@@ -399,7 +399,7 @@ export const spotCoins = [
     volume: "$224.8",
     marketCap: "$566.1M",
     change: "+5.11%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/wal.webp",
   },
   {
     name: "Suilend",
@@ -408,7 +408,7 @@ export const spotCoins = [
     volume: "$4.3",
     marketCap: "$30.7M",
     change: "+0.60%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/send.webp",
   },
   {
     name: "ApeCoin",
@@ -417,7 +417,7 @@ export const spotCoins = [
     volume: "$645.4",
     marketCap: "$496.4M",
     change: "+8.41%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/ape.webp",
   },
   {
     name: "io.net",
@@ -426,7 +426,7 @@ export const spotCoins = [
     volume: "$12.4K",
     marketCap: "$116.5M",
     change: "+12.29%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/io.png",
   },
   {
     name: "Lido",
@@ -435,7 +435,7 @@ export const spotCoins = [
     volume: "$5.4K",
     marketCap: "$642M",
     change: "+13.08%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/ldo.png",
   },
   {
     name: "Magic Eden",
@@ -444,7 +444,7 @@ export const spotCoins = [
     volume: "$33.2",
     marketCap: "$109.7M",
     change: "+0.27%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/me.png",
   },
   {
     name: "Ondo",
@@ -453,7 +453,7 @@ export const spotCoins = [
     volume: "$3.7K",
     marketCap: "$2.5B",
     change: "+13.35%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/ondo.jpg",
   },
   {
     name: "Dogwifhat",
@@ -462,16 +462,7 @@ export const spotCoins = [
     volume: "$2.4K",
     marketCap: "$865.2M",
     change: "+20.87%",
-    image: "/coin-1.webp",
-  },
-  {
-    name: "Worldcoin",
-    exchange: "WLD/USD",
-    price: "$0.932",
-    volume: "$326.8",
-    marketCap: "$1.5B",
-    change: "+0.34%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/wif.webp",
   },
   {
     name: "USDT",
@@ -480,7 +471,7 @@ export const spotCoins = [
     volume: "$1.3M",
     marketCap: "$156.4B",
     change: "+0.01%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/usdt.webp",
   },
   {
     name: "LayerZero",
@@ -489,16 +480,7 @@ export const spotCoins = [
     volume: "$7.5K",
     marketCap: "$201.9M",
     change: "+2.54%",
-    image: "/coin-1.webp",
-  },
-  {
-    name: "Raydium",
-    exchange: "RAY/USD",
-    price: "$2.0524",
-    volume: "$102.9",
-    marketCap: "$541.9M",
-    change: "-0.35%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/zro.png",
   },
   {
     name: "Jito",
@@ -507,7 +489,7 @@ export const spotCoins = [
     volume: "$50.6K",
     marketCap: "$720.2M",
     change: "+7.96%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/jto.webp",
   },
   {
     name: "Helium",
@@ -516,7 +498,7 @@ export const spotCoins = [
     volume: "$3.5K",
     marketCap: "$423M",
     change: "+2.74%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/hnt.webp",
   },
   {
     name: "Sui",
@@ -525,7 +507,7 @@ export const spotCoins = [
     volume: "$874.7K",
     marketCap: "$9.4B",
     change: "+14.83%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/sui.webp",
   },
   {
     name: "Render",
@@ -534,7 +516,7 @@ export const spotCoins = [
     volume: "$227",
     marketCap: "$1.7B",
     change: "-0.06%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/render.webp",
   },
   {
     name: "Uniswap",
@@ -543,7 +525,7 @@ export const spotCoins = [
     volume: "$12.5K",
     marketCap: "$4.2B",
     change: "+14.65%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/uni.webp",
   },
   {
     name: "Official Trump",
@@ -552,7 +534,7 @@ export const spotCoins = [
     volume: "$13.5K",
     marketCap: "$1.9B",
     change: "+8.57%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/trump.webp",
   },
   {
     name: "Chainlink",
@@ -561,7 +543,7 @@ export const spotCoins = [
     volume: "$7.9K",
     marketCap: "$9.1B",
     change: "+13.95%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/link.png",
   },
   {
     name: "Solana",
@@ -570,7 +552,7 @@ export const spotCoins = [
     volume: "$16.4M",
     marketCap: "$76.7B",
     change: "+9.87%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/sol.webp",
   },
   {
     name: "Aave",
@@ -579,7 +561,7 @@ export const spotCoins = [
     volume: "$10.2K",
     marketCap: "$4B",
     change: "+13.85%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/aave.jpg",
   },
   {
     name: "Ethereum",
@@ -588,7 +570,7 @@ export const spotCoins = [
     volume: "$12.9M",
     marketCap: "$294.6B",
     change: "+10.59%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/eth.webp",
   },
   {
     name: "Bitcoin",
@@ -597,7 +579,7 @@ export const spotCoins = [
     volume: "$5.4M",
     marketCap: "$2.1T",
     change: "+5.04%",
-    image: "/coin-1.webp",
+    image: "/coinImages/spots/btc.webp",
   },
 ];
 
@@ -608,7 +590,7 @@ export const futuresCoins = [
     volume: "$234.5K",
     interest: "$168.5K",
     change: "+16.70%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/pengu.webp",
   },
   {
     name: "kPEPE-PERP",
@@ -616,7 +598,7 @@ export const futuresCoins = [
     volume: "$332.4K",
     interest: "$145.8K",
     change: "+13.71%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/pepe.png",
   },
   {
     name: "kBONK-PERP",
@@ -624,7 +606,7 @@ export const futuresCoins = [
     volume: "$1.5K",
     interest: "$70.9K",
     change: "+13.76%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/bonk.webp",
   },
   {
     name: "DOGE-PERP",
@@ -632,7 +614,7 @@ export const futuresCoins = [
     volume: "$1M",
     interest: "$850.3K",
     change: "+9.55%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/doge.webp",
   },
   {
     name: "ENA-PERP",
@@ -640,7 +622,7 @@ export const futuresCoins = [
     volume: "$551.5K",
     interest: "$532.9K",
     change: "+15.17%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/ena.webp",
   },
   {
     name: "ARB-PERP",
@@ -648,7 +630,7 @@ export const futuresCoins = [
     volume: "$235.8K",
     interest: "$180.5K",
     change: "+22.02%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/arb.webp",
   },
   {
     name: "S-PERP",
@@ -656,7 +638,7 @@ export const futuresCoins = [
     volume: "$435.1K",
     interest: "$326.9K",
     change: "+21.50%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/s.webp",
   },
   {
     name: "JUP-PERP",
@@ -664,7 +646,7 @@ export const futuresCoins = [
     volume: "$1.6M",
     interest: "$926.7K",
     change: "+19.23%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/jup.webp",
   },
   {
     name: "OP-PERP",
@@ -672,7 +654,7 @@ export const futuresCoins = [
     volume: "$49.9K",
     interest: "$53.2K",
     change: "+15.45%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/op.webp",
   },
   {
     name: "ADA-PERP",
@@ -680,7 +662,7 @@ export const futuresCoins = [
     volume: "$493.3K",
     interest: "$298.8K",
     change: "+9.44%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/ada.webp",
   },
   {
     name: "ONDO-PERP",
@@ -688,7 +670,7 @@ export const futuresCoins = [
     volume: "$474.1K",
     interest: "$982.6K",
     change: "+18.80%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/ondo.jpg",
   },
   {
     name: "WIF-PERP",
@@ -696,7 +678,7 @@ export const futuresCoins = [
     volume: "$3.8M",
     interest: "$663K",
     change: "+26.09%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/wif.webp",
   },
   {
     name: "FARTCOIN-PERP",
@@ -704,7 +686,7 @@ export const futuresCoins = [
     volume: "$8.2M",
     interest: "$862.1K",
     change: "+19.21%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/fartcoin.webp",
   },
   {
     name: "KAITO-PERP",
@@ -712,7 +694,7 @@ export const futuresCoins = [
     volume: "$977.1K",
     interest: "$602K",
     change: "+12.97%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/kaito.webp",
   },
   {
     name: "TIA-PERP",
@@ -720,7 +702,7 @@ export const futuresCoins = [
     volume: "$151.3K",
     interest: "$59.7K",
     change: "+15.16%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/tia.webp",
   },
   {
     name: "VIRTUAL-PERP",
@@ -728,7 +710,7 @@ export const futuresCoins = [
     volume: "$680.4K",
     interest: "$81.4K",
     change: "+20.72%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/virtual.webp",
   },
   {
     name: "BERA-PERP",
@@ -736,7 +718,7 @@ export const futuresCoins = [
     volume: "$1.3M",
     interest: "$915.3K",
     change: "+9.08%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/bera.webp",
   },
   {
     name: "XRP-PERP",
@@ -744,7 +726,7 @@ export const futuresCoins = [
     volume: "$2.6M",
     interest: "$2M",
     change: "+10.79%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/xrp.webp",
   },
   {
     name: "NEAR-PERP",
@@ -752,7 +734,7 @@ export const futuresCoins = [
     volume: "$84.7K",
     interest: "$125K",
     change: "+16.13%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/near.webp",
   },
   {
     name: "SUI-PERP",
@@ -760,7 +742,7 @@ export const futuresCoins = [
     volume: "$11.8M",
     interest: "$2.3M",
     change: "+14.53%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/sui.webp",
   },
   {
     name: "IP-PERP",
@@ -768,7 +750,7 @@ export const futuresCoins = [
     volume: "$791.4K",
     interest: "$471.7K",
     change: "+0.08%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/ip.webp",
   },
   {
     name: "DOT-PERP",
@@ -776,7 +758,7 @@ export const futuresCoins = [
     volume: "$72.5K",
     interest: "$152.7K",
     change: "+10.31%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/dot.webp",
   },
   {
     name: "TRUMP-PERP",
@@ -784,7 +766,7 @@ export const futuresCoins = [
     volume: "$2.8M",
     interest: "$1M",
     change: "+8.07%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/trump.webp",
   },
   {
     name: "LINK-PERP",
@@ -792,7 +774,7 @@ export const futuresCoins = [
     volume: "$390.4K",
     interest: "$435.8K",
     change: "+16.85%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/link-perp.png",
   },
   {
     name: "AVAX-PERP",
@@ -800,7 +782,7 @@ export const futuresCoins = [
     volume: "$942.3K",
     interest: "$317.6K",
     change: "+11.12%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/avax.webp",
   },
   {
     name: "HYPE-PERP",
@@ -808,7 +790,7 @@ export const futuresCoins = [
     volume: "$8.4M",
     interest: "$3.1M",
     change: "+11.20%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/hype.webp",
   },
   {
     name: "LTC-PERP",
@@ -816,7 +798,7 @@ export const futuresCoins = [
     volume: "$95.6K",
     interest: "$261.8K",
     change: "+5.59%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/ltc.webp",
   },
   {
     name: "SOL-PERP",
@@ -824,7 +806,7 @@ export const futuresCoins = [
     volume: "$70.1M",
     interest: "$33.2M",
     change: "+9.39%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/sol.webp",
   },
   {
     name: "AAVE-PERP",
@@ -832,7 +814,7 @@ export const futuresCoins = [
     volume: "$4.4M",
     interest: "$753.9K",
     change: "+17.11%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/aave.jpg",
   },
   {
     name: "TAO-PERP",
@@ -840,7 +822,7 @@ export const futuresCoins = [
     volume: "$426.8K",
     interest: "$42.5K",
     change: "+17.17%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/tao.webp",
   },
   {
     name: "BNB-PERP",
@@ -848,7 +830,7 @@ export const futuresCoins = [
     volume: "$584K",
     interest: "$714.2K",
     change: "+3.39%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/bnb.webp",
   },
   {
     name: "ETH-PERP",
@@ -856,7 +838,7 @@ export const futuresCoins = [
     volume: "$62M",
     interest: "$16.1M",
     change: "+10.06%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/eth.webp",
   },
   {
     name: "BTC-PERP",
@@ -864,7 +846,7 @@ export const futuresCoins = [
     volume: "$104.6M",
     interest: "$46M",
     change: "+5.12%",
-    image: "/coin-1.webp",
+    image: "/coinImages/futures/btc.webp",
   },
 ];
 
@@ -879,7 +861,7 @@ export const lendCoins = [
     totalBorrowed: "243.4",
     totalBorrowedAmt: "$595.1K",
     utilization: "10.82%",
-    image: "/coin-1.webp",
+    image: "/coinImages/lend/eth.webp",
   },
   {
     name: "Solana",
@@ -891,7 +873,7 @@ export const lendCoins = [
     totalBorrowed: "64.9K",
     totalBorrowedAmt: "$9.4M",
     utilization: "19.72%",
-    image: "/coin-1.webp",
+    image: "/coinImages/lend/sol.webp",
   },
   {
     name: "US Dollar",
@@ -903,7 +885,7 @@ export const lendCoins = [
     totalBorrowed: "28.6M",
     totalBorrowedAmt: "$28.6M",
     utilization: "45.87%",
-    image: "/coin-1.webp",
+    image: "/coinImages/lend/usd.png",
   },
   {
     name: "Sui",
@@ -915,7 +897,7 @@ export const lendCoins = [
     totalBorrowed: "21.3K",
     totalBorrowedAmt: "$59K",
     utilization: "6.03%",
-    image: "/coin-1.webp",
+    image: "/coinImages/lend/sui.webp",
   },
   {
     name: "USDT",
@@ -927,7 +909,7 @@ export const lendCoins = [
     totalBorrowed: "1.7M",
     totalBorrowedAmt: "$1.7M",
     utilization: "60.77%",
-    image: "/coin-1.webp",
+    image: "/coinImages/lend/usdt.webp",
   },
   {
     name: "Bitcoin",
@@ -939,7 +921,7 @@ export const lendCoins = [
     totalBorrowed: "17.8",
     totalBorrowedAmt: "$1.9M",
     utilization: "8.09%",
-    image: "/coin-1.webp",
+    image: "/coinImages/lend/btc.webp",
   },
 ];
 
@@ -1043,5 +1025,233 @@ export const pepeusd = [
     price: 0.0000286,
     size: "2.01M",
     total: "2.19B",
+  },
+];
+
+export const trade = [
+  {
+    price: 9.14e-6,
+    quantity: 1440,
+    time: "17:00:04",
+  },
+  {
+    price: 9.136e-6,
+    quantity: 1440,
+    time: "17:00:02",
+  },
+  {
+    price: 9.135e-6,
+    quantity: 720,
+    time: "16:59:21",
+  },
+  {
+    price: 9.137e-6,
+    quantity: 720,
+    time: "16:59:21",
+  },
+  {
+    price: 9.139e-6,
+    quantity: 720,
+    time: "16:59:07",
+  },
+  {
+    price: 9.141e-6,
+    quantity: 720,
+    time: "16:59:07",
+  },
+  {
+    price: 9.162e-6,
+    quantity: 1092000,
+    time: "16:51:18",
+  },
+  {
+    price: 9.162e-6,
+    quantity: 1092000,
+    time: "16:51:18",
+  },
+  {
+    price: 9.162e-6,
+    quantity: 1092000,
+    time: "16:51:18",
+  },
+  {
+    price: 9.078e-6,
+    quantity: 788991,
+    time: "15:40:46",
+  },
+  {
+    price: 9.076e-6,
+    quantity: 1440,
+    time: "15:38:30",
+  },
+  {
+    price: 9.073e-6,
+    quantity: 1440,
+    time: "15:38:30",
+  },
+  {
+    price: 9.071e-6,
+    quantity: 720,
+    time: "15:37:46",
+  },
+  {
+    price: 9.073e-6,
+    quantity: 720,
+    time: "15:37:45",
+  },
+  {
+    price: 9.075e-6,
+    quantity: 720,
+    time: "15:36:25",
+  },
+  {
+    price: 9.076e-6,
+    quantity: 720,
+    time: "15:36:25",
+  },
+  {
+    price: 9.078e-6,
+    quantity: 24649000,
+    time: "15:17:02",
+  },
+  {
+    price: 8.942e-6,
+    quantity: 1440,
+    time: "13:40:16",
+  },
+  {
+    price: 8.94e-6,
+    quantity: 1440,
+    time: "13:39:44",
+  },
+  {
+    price: 8.938e-6,
+    quantity: 1440,
+    time: "13:39:43",
+  },
+  {
+    price: 8.937e-6,
+    quantity: 1440,
+    time: "13:39:43",
+  },
+  {
+    price: 8.935e-6,
+    quantity: 1440,
+    time: "13:39:42",
+  },
+  {
+    price: 8.934e-6,
+    quantity: 720,
+    time: "13:38:40",
+  },
+  {
+    price: 8.944e-6,
+    quantity: 720,
+    time: "13:38:40",
+  },
+  {
+    price: 8.947e-6,
+    quantity: 720,
+    time: "13:38:40",
+  },
+  {
+    price: 8.949e-6,
+    quantity: 720,
+    time: "13:38:40",
+  },
+  {
+    price: 8.95e-6,
+    quantity: 720,
+    time: "13:38:12",
+  },
+  {
+    price: 8.958e-6,
+    quantity: 720,
+    time: "13:38:12",
+  },
+  {
+    price: 8.96e-6,
+    quantity: 648,
+    time: "13:37:47",
+  },
+  {
+    price: 8.967e-6,
+    quantity: 648,
+    time: "13:37:46",
+  },
+  {
+    price: 8.969e-6,
+    quantity: 648,
+    time: "13:37:46",
+  },
+  {
+    price: 8.971e-6,
+    quantity: 648,
+    time: "13:37:01",
+  },
+  {
+    price: 8.973e-6,
+    quantity: 648,
+    time: "13:37:00",
+  },
+  {
+    price: 8.976e-6,
+    quantity: 1296,
+    time: "13:31:21",
+  },
+  {
+    price: 8.973e-6,
+    quantity: 1296,
+    time: "13:31:20",
+  },
+  {
+    price: 8.971e-6,
+    quantity: 1296,
+    time: "13:31:20",
+  },
+  {
+    price: 8.969e-6,
+    quantity: 1296,
+    time: "13:31:17",
+  },
+  {
+    price: 8.967e-6,
+    quantity: 1296,
+    time: "13:31:17",
+  },
+  {
+    price: 8.965e-6,
+    quantity: 1296,
+    time: "13:31:15",
+  },
+  {
+    price: 8.963e-6,
+    quantity: 648,
+    time: "13:30:37",
+  },
+  {
+    price: 8.969e-6,
+    quantity: 648,
+    time: "13:30:37",
+  },
+  {
+    price: 8.97e-6,
+    quantity: 648,
+    time: "13:30:26",
+  },
+  {
+    price: 8.979e-6,
+    quantity: 648,
+    time: "13:30:26",
+  },
+  {
+    price: 8.98e-6,
+    quantity: 648,
+    time: "13:30:08",
+  },
+  {
+    price: 8.983e-6,
+    quantity: 648,
+    time: "13:30:08",
   },
 ];
