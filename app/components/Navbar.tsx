@@ -6,27 +6,35 @@ import { LogoText } from "../icons/LogoText";
 import InputEl from "./InputEl";
 import Link from "next/link";
 import Button from "./Button";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import NavbarDropdown from "./NavbarDropdown";
+import { useOutsideClick } from "@/lib/useOutsideClick";
 
 function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [active, setActive] = useState<string | null>(null);
+  const modalRef = useRef(null);
 
   function handleActive(key: string) {
     setActive(key);
   }
 
+  function handleClickOutside() {
+    setShowDropdown(false);
+  }
+
+  useOutsideClick(modalRef, handleClickOutside);
+
   return (
     <>
       <nav className="flex items-center justify-between h-14">
-        <div className="flex items-center relative">
-          <Link href="/" className="flex items-center gap-2.5 w-full mx-5">
+        <div className="flex items-center relative w-110">
+          <Link href="/" className="flex items-center gap-2.5 w-max mx-5">
             <Logo />
             <LogoText />
           </Link>
 
-          <div className="flex gap-8 items-center font-bold text-sm text-gray  ml-5">
+          <div className="flex lg:gap-8 gap-6 items-center font-bold text-sm text-gray  ml-5 ">
             <Link
               href="/spot"
               className={`hover:text-gray-300 ${
@@ -56,7 +64,7 @@ function Navbar() {
             </Link>
 
             <Button
-              className="flex flex-row-reverse  gap-0.5 cursor-pointer hover:text-gray-300"
+              className="flex flex-row-reverse  gap-0.5 cursor-pointer hover:text-gray-300 "
               text="More"
               icon={
                 <ChevronDown
@@ -68,7 +76,11 @@ function Navbar() {
               }
               onClick={() => setShowDropdown((prev) => !prev)}
             ></Button>
-            {showDropdown && <NavbarDropdown />}
+            {showDropdown && (
+              <div ref={modalRef}>
+                <NavbarDropdown />
+              </div>
+            )}
           </div>
         </div>
 
@@ -91,12 +103,14 @@ function Navbar() {
         <div className="flex gap-4 mx-4">
           <Link
             href="https://backpack.exchange/signup"
+            target="_blank"
             className="py-1.5 px-3 rounded-lg bg-[#0B2822] hover:bg-[#0b2822da] text-[#03c379] text-sm font-bold"
           >
             Sign up
           </Link>
           <Link
             href="https://backpack.exchange/login"
+            target="_blank"
             className="py-1.5 px-3  rounded-lg text-[#64a0fb] bg-[#162236] hover:bg-[#162236d6] text-sm font-bold"
           >
             Sign in
