@@ -10,8 +10,7 @@ import { lendCoins } from "../data/cardData";
 import Image from "next/image";
 import { Zap } from "lucide-react";
 
-const headerStyles =
-  "text-gray-400 font-semibold lg:text-[15px] text-[13px] wrap";
+const headerStyles = "text-gray font-semibold lg:text-[15px] text-[13px] wrap";
 
 function LendCard() {
   return (
@@ -42,20 +41,18 @@ function LendCard() {
             {lendCoins.map((item, i) => {
               return (
                 <TableRow
-                  className="font-semibold cursor-pointer hover:bg-[#1d1e23] "
+                  className="font-semibold cursor-pointer hover:bg-dark "
                   key={i}
                 >
                   <TableCell className="flex items-center py-3">
-                    <Image
+                    <img
                       src={item.image}
                       alt="coin image"
-                      width={35}
-                      height={1}
-                      className="object-contain"
+                      className="object-cover rounded-full w-11 h-11"
                     />
                     <div className="pl-4">
                       <p className="text-lg">{item.name}</p>
-                      <p className="text-gray-400 text-[12px]">{item.symbol}</p>
+                      <p className="text-gray text-[12px]">{item.symbol}</p>
                     </div>
                   </TableCell>
                   <TableCell className="text-right text-[16px] text-green-500 ">
@@ -72,7 +69,7 @@ function LendCard() {
                   <TableCell className="text-right text-[16px]">
                     <div>
                       <p>{item.totalLent}</p>
-                      <p className="text-gray-400 text-[15px]">
+                      <p className="text-gray text-[15px]">
                         {item.totalLentAmt}
                       </p>
                     </div>
@@ -80,7 +77,7 @@ function LendCard() {
                   <TableCell className="text-right text-[16px]">
                     <div>
                       <p>{item.totalBorrowed}</p>
-                      <p className="text-gray-400 text-[15px]">
+                      <p className="text-gray text-[15px]">
                         {item.totalBorrowedAmt}
                       </p>
                     </div>
